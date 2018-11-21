@@ -578,6 +578,7 @@ istream& operator>>(istream &in,HighPrecision &obj){
     obj=HighPrecision(temp);
     return in;
 }
+/*
 int main(){
     HighPrecision num=(string)"0",hh="2",v=3,t;
     t=--num+hh;
@@ -587,3 +588,4 @@ int main(){
     cout<<t<<endl;
     return 0;
 }
+*/
