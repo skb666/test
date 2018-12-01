@@ -13,10 +13,10 @@ void Merge(int a[],int start,int mid,int end,int t[]){
 }
 void MergeSort(int a[],int start,int end,int t[]){
     if(start<end){
-        int m=start+(end-start)/2;
-        MergeSort(a,start,m,t);
-        MergeSort(a,m+1,end,t);
-        Merge(a,start,m,end,t);
+        int mid=start+(end-start)/2;
+        MergeSort(a,start,mid,t);
+        MergeSort(a,mid+1,end,t);
+        Merge(a,start,mid,end,t);
     }
 }
 int main(){
